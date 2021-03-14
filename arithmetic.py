@@ -54,3 +54,9 @@ def mod(num1, num2):
     """Return the remainder of num1 / num2."""
     remainder = num1 % num2
     return remainder
+    
+
+def add_mult(num1, num2, num3):
+    """Return the result of multiplying the sum of num1 & num2 with num3"""
+    equation_result = (num1 + num2) * num3
+    return equation_result
