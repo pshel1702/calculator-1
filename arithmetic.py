@@ -46,6 +46,8 @@ def cube(num1):
 
 def power(num1, num2):
     """Raise num1 to the power of num2 and return the value."""
+    is_raised = num1 ** num2
+    return is_raised
 
 
 def mod(num1, num2):
