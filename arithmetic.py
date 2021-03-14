@@ -60,3 +60,8 @@ def add_mult(num1, num2, num3):
     """Return the result of multiplying the sum of num1 & num2 with num3"""
     equation_result = (num1 + num2) * num3
     return equation_result
+
+def add_cubes(num1,num2):
+    """Return the sum of cubes of two numbers"""
+    sum_of_cubes = (num1 ** 3) + (num2 ** 3)
+    return sum_of_cubes
