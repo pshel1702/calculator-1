@@ -33,6 +33,9 @@ def divide(num1, num2):
 def square(num1):
     """Return the square of the input."""
 
+    is_squared = num1 ** 2
+    return is_squared
+
 
 def cube(num1):
     """Return the cube of the input."""
